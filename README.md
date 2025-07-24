@@ -2,10 +2,13 @@
 A simple password generator that stores NO data.
 
 ## How to use
-Simply run the main.py file. As long as you have Python3 installed, it will work.
-If you do not have Python3 installed, refer to the next section as a guide to installing.
+Bash:
+```bash
+pip install pyqt6 cryptography
+python main.py
+```
 
-## Installing Python3 (If you don't have it already)
+## Installing Python (If you don't have it already)
 
 Firstly, go to [python.org/downloads](https://www.python.org/downloads) and click the link for your OS.
 Then, install python as you would any other program.
