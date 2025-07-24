@@ -24,6 +24,7 @@ if input() == "Yes, do as I say":
         length = 6
     password = gerarate_password(length)
     print(f"Your password is: {password}")
+    input("Press Enter to exit the program.")
 else:
     print("You did not authenticate. Exiting the program.")    
     sleep(3.0)
